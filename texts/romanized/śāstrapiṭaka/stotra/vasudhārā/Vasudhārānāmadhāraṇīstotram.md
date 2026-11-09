@@ -1,0 +1,106 @@
+---
+title: Vasudhārānāmadhāraṇīstotram
+script: romanized
+category: śāstrapiṭaka/stotra/vasudhārā
+category_path: Romanized»śāstrapiṭaka»stotra»vasudhārā
+book_id: 218
+source_url: https://www.dsbcproject.org/canon-text/book/218
+chapters_count: 1
+bibliography:
+  Title: Bauddha Stotra Saṃgraha
+  Editor: Pandey, Janardan Shastri
+  Publisher: Motilal Banarsidass
+  Place of Publication: Varanasi
+  Year: '1994'
+  Book in Other version: N/A
+technical_details:
+  Text Version: Romanized
+  Input Personnel: DSBC Staff
+  Input Date: '2004'
+  Proof Reader: Miroj Shakya
+  Supplier: Nagarjuna Institute of Exact Methods
+  Sponsor: University of the West
+  Parallel Devanāgarī version: वसुधारानामधारणीस्तोत्रम्
+---
+
+# Vasudhārānāmadhāraṇīstotram
+
+vasudhārānāmadhāraṇīstotram
+
+om namo bhagavatyai āryaśrīvasudhārāyai
+
+divyarūpī surūpī ca saumyarūpī balapradā |  
+vasudharī vasudhāraṇī vasuśrī śrīkarī varā || 1 ||
+
+dharaṇī dhāraṇī dhātā śaraṇyā bhaktavatsalā |  
+prajñāpāramitā devī prajñā śrībuddhivardhinī || 2 ||
+
+vidyādharī śivā sūkṣmā śāstā sarvatra mātṛkā |  
+taruṇī tāru(ra)ṇī devī vidyādāneśvareśvarī || 3 ||
+
+bhūṣitā bhūtamātā ca sarvābharaṇabhūṣitā |  
+durdāntatrāsanī bhītā ugrā ugraparākramā || 4 ||
+
+dānapāramitā devī varṣaṇī divyarūpiṇī |  
+nidhānaṃ sarvamāṅgalyā kīrtirlakṣmīryaśaḥśubhā || 5 ||
+
+dahanī mālinī caṇḍī śabarī sarvamātrikā |  
+kṛtāntaśāsanī raudrī kaumārī viśvarūpiṇī || 6 ||
+
+vīryapāramitā devī jagadānandarocanī |  
+tāpasī ugrarūpī ca ṛddhisiddhibalapradā || 7 ||
+
+dhanyā puṇyā mahābhāgā ajitā jitavikramā |  
+jagadekahitā vidyā saṃgrāme tāraṇī śubhā || 8 ||
+
+kṣāntipāramitā devī śīlinī dhyānadhyāyino |  
+padminī padmadhārī ca padmapriyā padmāsanī || 9 ||
+
+śuddharūpī mahātejā hemavarṇā prabhākarī |  
+cintāmaṇimahādevī prajñāpustakadhāriṇī || 10 ||
+
+nidhānaṃ kūṭimāruḍhidhanyāgāradhanapriyā |  
+traidhātukaṃ mahā ādi divyābharaṇabhūṣiṇī || 11 ||
+
+mātarī sarvabuddhānāṃ ratnadhāte(tvī)śvareśvarī |  
+śūnyatā bhāvanī devī bhāvābhāvavivarjitā || 12 ||
+
+vainye(ne)ya kiṃ na vinyastā divyakleśanichedanī |  
+bhī(bhe) dinī sarvamārāṇāṃ saptapātālakṣobhinī (ṇī) || 13 ||
+
+brahmāṇī vedamātā ca guhyā ca guhyavāsinī |  
+sarasvatī viśālākṣī caturbrahmavihāriṇī || 14 ||
+
+tāthāgatī mahāramyā vajriṇī dharmadhāriṇī |  
+karmadhāteśvarī vidyā viśvajvālābhamaṇḍalī || 15 ||
+
+bodha(dhi)nī sarvasattvānāṃ bodhyaṅgakṛtaśekharī |  
+dhyānā dhīrmuktisaṃpannā advayadvayabhāvinī || 16 ||
+
+sarvārthasādhanī bhadrā strīrūpāmitavikramā |  
+darśinī buddhamārgāṇāṃ naṣṭamārgapradarśinī || 17 ||
+
+vāgīśvarī mahāśāntirgoptrī dhātrī dhanapradā |  
+strīrūpadhāriṇī siddhā yoginī yogajeśvarī || 18 ||
+
+manoharī mahākrāntiḥ saubhāgyapriyadarśinī |  
+sārthavāhakṛpādṛṣṭiḥ sarvatāthāgatātmakī || 19 ||
+
+namaste'stu mahādevī sarvasattvārthadāyinī |  
+namaste divyarūpī ca vasudhārā namo'stu te || 20 ||
+
+aṣṭottaraśataṃ nāma trikālaṃ yaṃ paṭhet pumān |  
+prāpnoti  niyataṃ siddhimīpsitārthamanorathān || 21 ||
+
+yadajñānakṛtaṃ pāpam ānantaryasudāruṇam |  
+tatsarvaṃ kṣapayatyāśu smaraṇāt sa(rva)bhadrakam || 22 ||
+
+athavā śīlasaṃpannaḥ saptajātismaro bhavet |  
+priyaścādeyavākyena rūpavān priyadarśanaḥ || 23 ||
+
+viprakṣatriyakuleṣu ādeyamupajāyate |  
+ante bhūmīśvaraṃ prāptaḥ paścāt prāpta(ḥ) sukhāvatīm || 24 ||
+
+śrīvasudhārānāmadhāraṇīstotraṃ
+
+samyaksaṃbuddhabhāṣitaṃ samāptam |

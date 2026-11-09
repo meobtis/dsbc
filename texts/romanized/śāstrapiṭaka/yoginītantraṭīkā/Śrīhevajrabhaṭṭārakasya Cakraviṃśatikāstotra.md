@@ -1,0 +1,107 @@
+---
+title: Śrīhevajrabhaṭṭārakasya Cakraviṃśatikāstotra
+script: romanized
+category: śāstrapiṭaka/yoginītantraṭīkā
+category_path: Romanized»śāstrapiṭaka»yoginītantraṭīkā
+book_id: 956
+source_url: https://www.dsbcproject.org/canon-text/book/956
+chapters_count: 1
+bibliography:
+  Title: Śrīhevajrabhaṭṭārakasya Cakraviṃśatikāstotra
+  Editor: '-'
+  Publisher: '-'
+  Place of Publication: '-'
+  Year: '-'
+  Book in Other version: N/A
+technical_details:
+  Text Version: Roman
+  Input Personnel: Anjana Shakya
+  Input Date: '2023'
+  Proof Reader: Miroj Shakya
+  Supplier: Nagarjuna Institute of Buddhist Studies
+  Sponsor: University of the West
+  Other Version: N/A
+---
+
+# Śrīhevajrabhaṭṭārakasya Cakraviṃśatikāstotra
+
+p.1
+
+śrīhevajrabhaṭṭārakasya cakraviṁśatikāstotra ( cvs )
+
+oṁ namaḥ śrīhevajrāya ||
+
+sarvabhāvasvabhāvāgryam ādyaṁ sarvātmani sthitam |  
+prajñopāyādvayaṁ vīraṁ hevajraṁ praṇamāmy aham ||1||
+
+bhaktyā namāmi taṁ nāthaṁ nairātmyāśliṣṭakandharam |  
+piṇgalordhvajvalatkeśam aṣṭāsyaṁ nayanais tribhiḥ ||2||
+
+ūrdhvamūle sitakṛṣṇe sitarakte dakṣiṇetare |  
+kṛṣṇavaktrāṇi śeṣāṇi yasya taṁ praṇamāmy aham ||3||
+
+hastyaśvakharagāvoṣṭranaraśvamahiṣānvitaiḥ |  
+kapālair aṣṭabhir yuktaṁ dakṣiṇāṣṭabhujasthitaiḥ ||4||
+
+kṣityāpavāyutejaś ca candrārkayamaguhyakān |  
+dhatte vāmabhujāṣṭasthakapāleṣu namāmi tam ||5||
+
+caturmārasamākrāntaṁ catuścaraṇadigambaram |  
+sūryāliḍhapadaṁ nīlaṁ nṛtyamānaṁ namāmy aham ||6||
+
+p.2
+
+catuścakrātmakaṁ ghoraiḥ sravanmuṇḍair vibhūṣitam |  
+tathāgataviśuddhābhir mudrābhiḥ samalaṁkṛtam ||7||
+
+viśvavajrāṇkitaṁ mūrdhni kulādhipatimastakam |  
+paramānandasaṁprāptaṁ vande 'haṁ taṁ mahāsukham ||8||
+
+pūrve gaṁkārajāṁ gaurīṁ kṛṣṇāṇgīṁ vāmarohitām |  
+dakṣiṇe karttikāsaktāṁ brahmākrāntāṁ namāmy aham ||9||
+
+caṁkārasaṁbhavāṁ caurīṁ māñjiṣṭhābhāṁ tu dakṣiṇe |  
+varāhaḍamaruhastāṁ ca indrārūḍhāṁ namāmy aham ||10||
+
+vaṁkārajanitāṁ pītāṁ vetālīṁ tām upendragām |  
+vāme pātrakarāṁ savye kūrmahastāṁ namāmy aham ||11||
+
+ghasmarīm uttaradvāre śyāmāṁ ghaṁkārasaṁbhavām |  
+kapālāhikaravyagrāṁ rudrārūḍhāṁ namāmy aham ||12||
+
+namāmi pukkasīṁ nīlāṁ yamākrāntāṁ puṁudbhavām |  
+paraśuṁ vāmetare siṁham aiśānyāṁ ghorarūpiṇīm ||13||
+
+śabarīṁ śaṁkārajāṁ śuklām āgneyyāṁ dhanadasthitām |  
+vāme khikkhirikā savye namāmi patidhāriṇīm ||14||
+
+p.3
+
+caṇḍālīṁ gaganaśyāmāṁ nairṛtye caṁsamudbhavām |  
+halaṁ vāmetare cakraṁ naumi rākṣasamardanīm ||15||
+
+ḍaṁkārajanitāṁ ḍombīṁ vāyavye vemacitrigām |  
+tarjanīvajrahastāṁ ca karburābhāṁ namāmy aham ||16||
+
+ardhaparyaṇkanāṭyasthāḥ pañcamudrāvibhūṣitāḥ |  
+nagnās trilocanāḥ sarvā bhaktitaḥ praṇamāmy aham ||17||
+
+skandhadhātuviśuddhāś ca bodhicittasamudbhavāḥ |  
+namāmi sarvabhāvena etāḥ sarvāḥ sukhapradāḥ ||18||
+
+svadakṣiṇabhujāsaktacihnabījavinirgatāḥ |  
+mahāsukharatāḥ sarvāḥ sadā samyag namāmy aham ||19||
+
+yaś candrārkapuṭasthabījayugalāj jātaḥ savidyaḥ prabhus
+
+trailokyaṁ nijamaṇḍalākṛtim idaṁ nirmāya yuktyā svayam |  
+saṁhṛtyātmani sarvam etad akhilaṁ vidyāṁ ca satsaukhyadāṁ
+
+prajñārāgarasāmṛte nijapade līnas tu tasmai namaḥ ||20||
+
+stutvā sadevatīcakraṁ hevajraṁ ḍākinīprabhum |  
+yan mayopārjitaṁ puṇyaṁ tena loko 'stu tatsamaḥ || ||
+
+śrīhevajrabhaṭṭārakasya cakraviṁśikāstotraṁ samāptam
+
+|| || kṛtir iyaṁ siddhācāryasororuhapādānām iti || ||

@@ -1,0 +1,45 @@
+---
+title: Āryacaturdharmanirdeśasūtram
+script: romanized
+category: sūtrapiṭaka/nirdeśa
+category_path: Romanized»sūtrapiṭaka»nirdeśa
+book_id: 64
+source_url: https://www.dsbcproject.org/canon-text/book/64
+chapters_count: 1
+bibliography:
+  Title: Dhih Journal
+  Editor: Samten, Ngawang &  Pandey, Janardan
+  Publisher: Central Institute of Higher Tibetan Studies
+  Place of Publication: Sarnath
+  Year: '2003'
+  Book in Other version: N/A
+technical_details:
+  Text Version: Romanized
+  Input Personnel: DSBC Staff
+  Input Date: '2004'
+  Proof Reader: Miroj Shakya
+  Supplier: Nagarjuna Institute of Exact Methods
+  Sponsor: University of the West
+  Parallel Devanāgarī version: आर्यचतुर्धर्मनिर्देशसूत्रम्
+---
+
+# Āryacaturdharmanirdeśasūtram
+
+āryacaturdharmanirdeśasūtram
+
+(pāpaśodhanopāyabhūtaṃ catuḥpratipakṣabalanirdeśasūtram)
+
+(kha) saṃskṛte punaruddhāritam
+
+bhāratīyabhāṣāyām-āryacaturdharmanirdeśaṃ nāma mahāyānasutram|  
+namaḥ sarvabuddha-bodhisattvebhyaḥ
+
+evaṃ mayā śrutam- ekasmin samaye bhagavān buddhaḥ trāyastriṃśadeveṣu sudharmādevasabhāyāṃ sārddhaṃ pañcānāṃ bhikṣuśatānāṃ mahāsaṃghena, saṃbahulaiḥ maitreyamañjuśryādibodhisattvairmahāsattvairviharatisma| tasmin samaye bhagavān buddhaḥ bodhisattvaṃ mahāsattvaṃ maitreyamuddiśyopadiṣṭavān-
+
+caturbhirmaitreya ! dharmaiḥ samanvāgato bodhisattvo mahāsattvaḥ kṛtopacitaṃ pāpamabhibhavati| katamaiścaturbhiḥ ? yaduta vidūṣaṇāsamudācāreṇa, pratipakṣasamudācāreṇa, pratyāpattibalena, āśrayabalena ca| tatra vidūṣaṇāsamudācāro'kuśalaṃ karmādhyācarati, tatraiva tatraiva ca vipratisārabahulo bhavati| tatra pratipakṣasamudācāraḥ kṛtvā'pyakuśalaṃ karma kuśale karmaṇyatyarthābhiyogaṃ gataḥ| pratyāpattibalaṃ saṃvarasamādānādakaraṇasaṃvaralābhaḥ| tatrāśrayabalaṃ buddhaḥ-dharma-saṃghaśaraṇagamanamanutsṛṣṭabodhicittatā ca| subalavatsaṃniśrayeṇa na śakyate pāpenābhibhavitum| ebhirmaitreya ! caturbhidharmaiḥ samanvāgato bodhisattvo mahāsattvaḥ kṛpopacittaṃ pāpamabhibhavatīti||
+
+bodhisattvairmahāsattvaiḥ sūtramidaṃ sadā paṭhanīyaṃ (vācayitavyaṃ) svādhyāyitavyaṃ cintayitavyaṃ subahulaṃ bhāvayitavyaṃ ca| anena duścaritāni phalaṃ nābhinirvartiṣyante| evaṃ bhagavān upadiṣṭavān| bodhisattvena mahāsattvena maitreyeṇa taiśca bhikṣubhiḥ bodhisattvaiḥ śatakratvādidevaputraiḥ sarvasampannaparimaṇḍalena ca āptamanasā bhagavataḥ pravacanamabhinanditam|  
+||iti āryacaturdharmanirdeśaṃ nāma mahāyānasūtraṃ samāptam||
+
+bhāratīyopādhyāyasurendrabodhinā mahālocāvā-vandejñānasenena cānūditaṃ vyavasthāpitaṃ ca|  
+||bhavatu sarvamaṅgalam||

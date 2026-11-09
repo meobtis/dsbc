@@ -1,0 +1,81 @@
+---
+title: Kauśikaprajñāpāramitāsūtram
+script: romanized
+category: sūtrapiṭaka/prajñāpāramitā
+category_path: Romanized»sūtrapiṭaka»prajñāpāramitā
+book_id: 69
+source_url: https://www.dsbcproject.org/canon-text/book/69
+chapters_count: 1
+bibliography:
+  Title: Mahāyāna-sūtra-saṃgrahaḥ ( part 1)
+  Editor: Vaidya, P.L
+  Publisher: The Mithila Institute of Post-Graduate Studies and Research in Sanskrit
+    Learning
+  Place of Publication: Darbhanga
+  Year: '1961'
+  Book in Other version: N/A
+technical_details:
+  Text Version: Romanized
+  Input Personnel: DSBC Staff
+  Input Date: '2005'
+  Proof Reader: Miroj Shakya
+  Supplier: Nagarjuna Institute of Exact Methods
+  Sponsor: University of the West
+  Parallel Devanāgarī version: कौशिकप्रज्ञापारमितासूत्रम्
+---
+
+# Kauśikaprajñāpāramitāsūtram
+
+kauśikaprajñāpāramitāsūtram|  
+namo sarvabuddhabodhisattvebhyaḥ||
+
+evaṃ mayā śrutam| ekasmin samaye bhagavān rājagṛhe viharati sma gṛdhrakūṭe parvate mahatā bhikṣusaṃghena sārdhamanekaiśca bodhisattvaśatasahasraiḥ sarvaiḥ kumārabhūtaiḥ| tatra khalu bhagavān śakraṃ devānāmindramāmantrayate sma||
+
+ayaṃ kauśika prajñāpāramitāyāḥ arthaḥ-prajñāpāramitā na dvayena draṣṭavyā na advayena| na nimittato na animittataḥ| na āyūhato na nirāyūhataḥ| notkṣepato na prakṣepataḥ| na saṃkleśato na asaṃkleśataḥ| na vyavadānato na avyavadānataḥ| notsargato na anutsargataḥ| na sthānato na asthānataḥ| na yogato na ayogataḥ| na saṃbandhato na asaṃbandhataḥ| na pratyayato na apratyayataḥ| na dharmato na adharmataḥ| na tathata(yā) na atathata(yā) na bhūtakoṭyā na abhūtakoṭyā (vedi)tavyā||
+
+evamevāyaṃ sa kauśika prajñāpāramitāyāḥ arthaḥ| tadyathā sarvadharmasamatvāt prajñāpāramitā samā| sarvadharmaviviktatvāt prajñāpāramitā viviktā| sarvadharmācalatvāt prajñāpāramitā acalā| sarvadharmāmanyatvāt prajñāpāramitā amanyatā| sarvadharmābhīrutvāt prajñāpāramitā abhīru| sarvadharmācchambhitatayā prajñāpāramitā acchambhī | sarvadharmaikarasatvāt prajñāpāramitā ekarasā| sarvadharmānutpādatvāt prajñāpāramitā anutpādā| sarvadharmānirodhatvāt prajñāpāramitā anirodhā| gaganakalpatvāt sarvadharmāṇāṃ prajñāpāramitā gaganakalpā| rūpāparyantatvāt prajñāpāramitā aparyantā| evaṃ vedanāsaṃjñāsaṃskāravijñānāparyantatvāt prajñāpāramitā aparyantā| pṛthivīdhātvaparyantatvāt prajñāpāramitā aparyantā| evamabdhātu-tejodhātu-vāyudhātu-ākāśadhātu-vijñānadhātvaparyantatvāt prajñāpāramitā aparyantā| sumervaparyantatvāt prajñāpāramitā aparyantā| samudrāparyantatvāt prajñāpāramitā aparyantā| vajrasamatvāt prajñāpāramitā samā| sarvadharmābhedatvāt prajñāpāramitā abhedā| sarvadharma(svabhāvā)nupalabdhitvāt prajñāpāramitā anupalabdhiḥ| sarvadharmavibhāva(nā)-samatvāt prajñāpāramitā(a)vibhāva(nā)-samā| sarvadharmaniśceṣṭatvāt prajñāpāramitā niśceṣṭā| sarvadharmācintyatvāt prajñāpāramitā acintyeti||
+
+evaṃ dānapāramitā-śīlapāramitā-kṣāntipāramitā-vīryapāramitā-
+
+dhyānapāramitā-prajñāpāramitātrimaṇḍalapariśuddhyaparyantatvāt prajñāpāramitā aparyantā iti||
+
+prajñāpāramitā ucyate yaduta aṣṭādaśaśūnyatā| tadyathā- ādhyātmaśūnyatā bahirdhāśūnyatā ādhyātmābahirdhāśūnyatā śūnyatāśūnyatā mahāśūnyatā paramā(rtha)śūnyatā saṃskṛtaśūnyatā asaṃskṛtaśūnyatā atyantaśūnyatā anādyagraśūnyatā (ana)pakāraśūnyatā prakṛtiśūnyatā svalakṣaṇaśūnyatā sarvadharmaśūnyatā anupalambhaśūnyatā abhāvaśūnyatā svabhāvaśūnyatā abhāvasvabhāvaśūnyatā iti| ayamucyate saṃkṣiptena prajñāpāramiteti||
+
+tārakā timiraṃ dīpo māyāvaśyāya buddhudam|  
+supinaṃ vidyudabhraṃ ca evaṃ draṣṭavya saṃskṛtamiti||
+
+anirodhamanutpādamanucchedamaśāśvatam|  
+anekārthamanānārthamanāgamamanirgamam||
+
+yaḥ pratītyasamutpādaṃ prapañcopaśamaṃ śivam|  
+deśayāmāsa saṃbuddhastaṃ vande vadatāṃ varam||
+
+namo daśasu dikṣu sarveṣāmatītānāgatapratyutpannānāṃ trayāṇāṃ ratnānām| namo bhagavatyai prajñāpāramitāyai sarvatathāgatasunibhāyai sarvatathāgatānujñātavijñātāyai| (oṃ) prajñe mahāprajñe prajñāvabhāse prajñālokakāri ajñānavidhamane siddhe susiddhe siddhyamane (bha)gavate sarvāṅgasundari (bha)ktivatsale prasārahaste samāśvāsakare sidhya sidhya, budhya budhya, kampa kampa, cala cala, rāva rāva, āgaccha bhagavate mā vilamba svāhā||
+
+namo dharmodgatasya bodhisattvasya mahāsattvasya mahākāruṇakasya||
+
+namo prajñāpāramitāyai| tadyathā-munidharme saṃgrahadharme anugrahadharme vimokṣadharme sattvānugrahadharme vaiśramaṇadharme samantanuparivartanadharme guṇigrahasaṃgrahadharme sarvatrānugatadharme sarvakālaparipūrṇadharme svāhā||
+
+namo prajñāpāramitāyai| tadyathā-akhane nikhane mukhana nekhane (avaravandane) paṭane paṭane paṭare svāhā||
+
+namo prajñāpāramitāyai| tadyathā-gaṅgā gaṅgā na tīrāvabhāsa gaṅgā svāhā||
+
+namo prajñāpāramitāyai| tadyathā śrīye śrīye muni śrīye śrīyase svāhā||
+
+namo prajñāpāramitāyai| tadyathā-oṃ vajrabale svāhā||
+
+namo prajñāpāramitāyai| tadyathā-oṃ hrī śrī dhī śruti smṛti mati gati vijaye svāhā||
+
+namo prajñāpāramitāyai| tadyathā-bambari bambari mahābambari būru būru mahābūru svāhā||
+
+namaḥ prajñāpāramitāyai| tadyathā-hūte hūte hūvitāśane sarva-karmāvaraṇane svāhā||
+
+namaḥ prajñāpāramitāyai| tadyathā-oṃ orolik svāhā||
+
+namo prajñāpāramitāyai| tadyathā-oṃ sarvavit svāhā||
+
+namaḥ prajñāpāramitāyai| tadyathā-gate gate pāragate pārasaṃgate bodhi svāhā||
+
+idamavocadbhagavān| āttamanā āyuṣmān sāriputraḥ śakro devānāmindraste ca bodhisattvā mahāsattvāḥ sā ca sarvāvatī parṣad sadevagandharvamānuṣāsuraśca loko bhagavato bhāṣitamabhyanandan||
+
+kauśikanāma prajñāpāramitā samāptā||
