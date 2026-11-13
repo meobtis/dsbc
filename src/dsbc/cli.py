@@ -1,8 +1,11 @@
 import asyncio
 import json
 import logging
+import re
+import unicodedata
 from typing import Optional
 import click
+import yaml
 from rich.console import Console
 from rich.logging import RichHandler
 from rich.panel import Panel
@@ -16,8 +19,10 @@ from .config import (
     RAW_BOOKS_DIR,
     RAW_CONTENT_DIR,
     TEXTS_DIR,
+    TRANSLITERATE_PATH,
 )
 from .converter import DSBCConverter
+from .translit import capitalise, devanagari_to_iast, tool_version
 from .indexer import DSBCIndexer
 from .scraper import DSBCScraper
 
@@ -234,6 +239,101 @@ def process_all(
     ctx.invoke(scrape, script=script, book_id=None, limit=None, concurrency=concurrency, force=False)
     ctx.invoke(convert, script=script, book_id=None, split_chapters=split_chapters)
     console.print("[bold green]✓ Pipeline completed successfully![/bold green]")
+
+
+def _read_md(path):
+    """Split a Markdown file into (front matter dict, body)."""
+    _, head, body = path.read_text(encoding="utf-8").split("---\n", 2)
+    return yaml.safe_load(head), body
+
+
+def _safe_name(name: str) -> str:
+    name = unicodedata.normalize("NFC", name)
+    name = re.sub(r'[/\\:*?"<>|]+', "_", name)
+    return re.sub(r"\s+", " ", name).strip(". ")[:120] or "untitled"
+
+
+@main.command()
+@click.option("--book-id", "book_ids", type=int, multiple=True, help="Transliterate only this book (repeatable).")
+def transliterate(book_ids):
+    """Write IAST versions of the Devanāgarī books listed in data/transliterate.json (Aksharamukha).
+
+    These are Devanāgarī books for which DSBC has no romanised version. The file goes to
+    texts/romanized/<category>/ and says in its front matter that it is a transliteration.
+    """
+    wanted = set(book_ids) or set(json.loads(TRANSLITERATE_PATH.read_text(encoding="utf-8"))["book_ids"])
+    dev_dir = TEXTS_DIR / "devanagari"
+    files = {}
+    for path in dev_dir.rglob("*.md"):
+        head = path.read_text(encoding="utf-8")[:3000]
+        if re.search(r"^chapter:", head, re.M):  # one file per chapter, not a whole book
+            continue
+        m = re.search(r"^book_id: (\d+)$", head, re.M)
+        if m and int(m.group(1)) in wanted:
+            files[int(m.group(1))] = path
+    missing = wanted - set(files)
+    if missing:
+        raise click.ClickException(f"No converted Devanāgarī book for id(s) {sorted(missing)}; run 'dsbc convert' first.")
+
+    version = tool_version()
+    rows = []
+    for book_id in sorted(files):
+        path = files[book_id]
+        fm, body = _read_md(path)
+        category = devanagari_to_iast(fm.get("category", ""))
+        title = capitalise(devanagari_to_iast(fm["title"]))
+        target = TEXTS_DIR / "romanized" / category / f"{_safe_name(title)}.md"
+        if target.exists() and "transliterated_from" not in _read_md(target)[0]:
+            raise click.ClickException(f"{target} exists and is not a transliteration; refusing to overwrite it")
+
+        new = {}
+        for key, value in fm.items():
+            if key == "title":
+                new[key] = title
+            elif key == "script":
+                new[key] = "romanized"
+            elif key == "category":
+                new[key] = category
+            elif key == "category_path":
+                new[key] = "Romanized»" + devanagari_to_iast(value.split("»", 1)[1]) if "»" in value else value
+            elif key == "book_id":
+                new[key] = f"{value}-iast"
+                new["transliterated_from"] = str(path.relative_to(TEXTS_DIR.parent).as_posix())
+                new["transliterated_from_book_id"] = value
+                new["transliteration"] = {
+                    "tool": version,
+                    "from": "Devanagari",
+                    "to": "IAST",
+                    "note": "Machine transliteration of the Devanāgarī edition, which is the authoritative text. "
+                    "Dandas are written | and ||.",
+                }
+            elif key == "technical_details" and isinstance(value, dict):
+                details = dict(value)
+                details["Text Version"] = "Romanized (IAST), transliterated from the Devanāgarī text"
+                new[key] = details
+            else:
+                new[key] = value
+        new_body = devanagari_to_iast(body)
+        head = yaml.dump(new, allow_unicode=True, default_flow_style=False, sort_keys=False, width=100).strip()
+        # The "# Title" line of the body is the Devanāgarī title: use the IAST one.
+        new_body = re.sub(r"^\n# .*\n", f"\n# {title}\n", new_body, count=1)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(f"---\n{head}\n---\n{new_body}", encoding="utf-8")
+        rows.append((book_id, title, target.relative_to(TEXTS_DIR)))
+        console.print(f"  IAST   {book_id:>4}  {title[:44]:44} {target.stat().st_size // 1024:5} KB")
+
+    lines = [
+        "# Transliterated editions\n",
+        f"IAST versions of Devanāgarī books that DSBC has no romanised version of, made with {version}. "
+        "The Devanāgarī text is the authoritative edition.\n",
+        "| Book | Title | IAST version | Devanāgarī book |",
+        "|---|---|---|---|",
+    ]
+    for book_id, title, rel in rows:
+        lines.append(f"| {book_id} | {title} | [{rel.stem}]({rel.as_posix().replace(' ', '%20')}) | "
+                     f"[dsbcproject.org](https://www.dsbcproject.org/canon-text/book/{book_id}) |")
+    (TEXTS_DIR / "TRANSLITERATED.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    console.print(f"[bold green]✓[/bold green] Transliterated {len(rows)} books; see {TEXTS_DIR / 'TRANSLITERATED.md'}")
 
 
 @main.command()

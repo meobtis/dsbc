@@ -3,8 +3,9 @@ name = "dsbc"
 version = "0.1.0"
 description = "Deterministic scraper and Markdown converter for the Digital Sanskrit Buddhist Canon (DSBC)"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"  # Aksharamukha 2.3 needs Python before 3.14
 dependencies = [
+    "aksharamukha>=2.3",
     "beautifulsoup4>=4.12.3",
     "click>=8.1.7",
     "httpx>=0.27.0",

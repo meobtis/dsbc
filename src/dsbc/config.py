@@ -12,6 +12,7 @@ RAW_BOOKS_DIR = RAW_DIR / "books"
 RAW_CONTENT_DIR = RAW_DIR / "content"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 TEXTS_DIR = PROJECT_ROOT / "texts"
+TRANSLITERATE_PATH = DATA_DIR / "transliterate.json"
 
 # Request headers to simulate browser
 DEFAULT_HEADERS = {

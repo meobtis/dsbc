@@ -140,6 +140,28 @@ uv run dsbc convert --split-chapters
 
 ---
 
+### 4. Transliterate Devanāgarī books that have no romanised version
+
+Most Devanāgarī books in DSBC also exist in a romanised (IAST) edition, which was keyed in separately. Ten do not, and
+for those `dsbc transliterate` writes an IAST version with [Aksharamukha](https://www.aksharamukha.com/python), listed
+in [`data/transliterate.json`](data/transliterate.json):
+
+```bash
+uv run dsbc transliterate              # the books listed in data/transliterate.json
+uv run dsbc transliterate --book-id 364
+```
+
+The files go to `texts/romanized/<category>/`, listed in [`texts/TRANSLITERATED.md`](texts/TRANSLITERATED.md). They are
+**machine transliterations**, and the Devanāgarī book remains the authoritative text. The front matter says so
+(`transliterated_from`, `transliteration`), and gives the book id as `<id>-iast`. Only Devanāgarī characters are
+transliterated, so the structure of the file is unchanged. Conventions: dandas `।` `॥` are written `|` `||` (not
+Aksharamukha's `.` `..`), and a nukta is dropped, because in Sanskrit texts it is a typing artefact (`स्फ़ुट` is
+*sphuṭa*, not "sfuṭa"). To check that Aksharamukha follows the IAST of DSBC's own romanised editions, I compared it
+with the 338 books that exist in both scripts: the median agreement is 0.999 word for word, ignoring spelling of
+nasals and punctuation.
+
+The project pins Python 3.12, because Aksharamukha 2.3 does not run on Python 3.14 or later.
+
 ## 5. Output Format & Directory Layout
 
 ### Directory Hierarchy

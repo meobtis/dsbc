@@ -1,0 +1,15 @@
+{
+  "comment": "Devanāgarī books for which DSBC has no romanised version. 'dsbc transliterate' writes an IAST version of each (Aksharamukha). Add a book id here when a Devanāgarī book has no romanised counterpart; remove it when DSBC adds one.",
+  "book_ids": [
+    360,
+    361,
+    362,
+    364,
+    381,
+    486,
+    845,
+    870,
+    872,
+    892
+  ]
+}
